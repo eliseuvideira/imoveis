@@ -1,0 +1,2 @@
+.husky/pre-commit linguist-vendored
+.env.example linguist-vendored
