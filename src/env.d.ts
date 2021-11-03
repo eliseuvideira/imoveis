@@ -10,6 +10,9 @@ declare namespace NodeJS {
     API_TOKEN: string;
     API_URL: string;
 
+    // Logging
+    DEBUG_GRAPHQL: "0" | "1";
+
     // Localization
     LANG: string;
   }

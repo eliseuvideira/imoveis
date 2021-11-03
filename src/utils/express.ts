@@ -6,15 +6,10 @@ import { exception, notFound } from "@ev-fns/errors";
 
 export const app = express();
 
-export interface MiddlewaresProps {
-  app: express.Express;
-  middlewares?: express.RequestHandler[];
-}
-
-export const middlewares = async ({
-  app,
-  middlewares = [],
-}: MiddlewaresProps) => {
+export const middlewares = async (
+  app: express.Express,
+  middlewares: express.RequestHandler[] = [],
+) => {
   app.use(cors());
   app.use(json());
   app.use(morgan("short", { skip: () => process.env.NODE_ENV === "test" }));
