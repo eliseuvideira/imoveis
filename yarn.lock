@@ -120,6 +120,11 @@
   resolved "https://registry.yarnpkg.com/@ev-graphql-2/create-resolver/-/create-resolver-0.1.2.tgz#a2fd81796da1064b749fb52554064d4a7ddfedbd"
   integrity sha512-ihRzLEJokFqZTYrtsu6bOO0Ke+TvvR4Y640Ssd31fahe2/2DrnM6yXT93kZv+0ntJ1+R5qbqhyLHz9Jr1ROFbA==
 
+"@ev-postgres/model@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@ev-postgres/model/-/model-0.6.1.tgz#d642d6249cd9ddcc051c342eb905d928206bd8f2"
+  integrity sha512-10ZUYZrzOe52OKAv4AdjuAuo//Hf8/zq6tqzPEB5TpZNjBdApvJISd51601f8nM/3M5ldL0v5di9rUR3hx1e+A==
+
 "@graphql-tools/merge@^8.2.1":
   version "8.2.1"
   resolved "https://registry.yarnpkg.com/@graphql-tools/merge/-/merge-8.2.1.tgz#bf83aa06a0cfc6a839e52a58057a84498d0d51ff"
